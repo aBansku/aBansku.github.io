@@ -17,7 +17,7 @@ function startGame() {
   hide(startBtn)
   score = -1;
   ended = false;
-  // we get start time
+  // get start time
   startTime = new Date().getTime();
   var timerId = setInterval(function() {
     var total = (new Date().getTime() - startTime) / 1000;
