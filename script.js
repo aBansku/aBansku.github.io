@@ -38,9 +38,6 @@ timerTxt.textContent = duration.toFixed(3);
 clicksTxt.textContent = clicsBySeconds;
 show(startBtn);
 setTimeout(function() {
-  alert('You made ' + score + ' clicks in ' + duration + 
-  ' seconds. It is ' + clicsBySeconds + 
-  ' clicks by seconds. Try again!');
 }, 10);
 }
 startBtn.addEventListener("click", function(e) {
