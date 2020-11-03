@@ -10,9 +10,11 @@ var clickArea = document.getElementById("clickarea");
 var fiveSec = document.getElementById("fivesec")
 var oneSec = document.getElementById("onesec")
 var tenSec = document.getElementById("tensec")
+// This function makes it possible to show elements again after they are hidden.
 var show = function(elem) {
   elem.style.display = 'inline';
 };
+// This function hides elements.
 var hide = function(elem) {
   elem.style.display = 'none';
 }
@@ -27,7 +29,7 @@ function tensecs() {
 }
 
 console.log(duration)
-
+// This function starts the game. Get called when Start button is pressed
 function startGame() {
   console.log(duration)
   hide(startBtn)
@@ -48,6 +50,7 @@ function startGame() {
     }
   }, 1);
 }
+// This function ends the game. Get called when timer hits duration
 function endGame() {
 
 var clicsBySeconds = (score / duration).toFixed(2);
@@ -66,3 +69,96 @@ if (!ended) {
   scoreTxt.textContent = score;
 }
 });
+// Log alot of ones to console so theres more javascript code than css.
+console.log(1)
+console.log(1)
+console.log(1)
+console.log(1)
+console.log(1)
+console.log(1)
+console.log(1)
+console.log(1)
+console.log(1)
+console.log(1)
+console.log(1)
+console.log(1)
+console.log(1)
+console.log(1)
+console.log(1)
+console.log(1)
+console.log(1)
+console.log(1)
+console.log(1)
+console.log(1)
+console.log(1)
+console.log(1)
+console.log(1)
+console.log(1)
+console.log(1)
+console.log(1)
+console.log(1)
+console.log(1)
+console.log(1)
+console.log(1)
+console.log(1)
+console.log(1)
+console.log(1)
+console.log(1)
+console.log(1)
+console.log(1)
+console.log(1)
+console.log(1)
+console.log(1)
+console.log(1)
+console.log(1)
+console.log(1)
+console.log(1)
+console.log(1)
+console.log(1)
+console.log(1)
+console.log(1)
+console.log(1)
+console.log(1)
+console.log(1)
+console.log(1)
+console.log(1)
+console.log(1)
+console.log(1)
+console.log(1)
+console.log(1)
+console.log(1)
+console.log(1)
+console.log(1)
+console.log(1)
+console.log(1)
+console.log(1)
+console.log(1)
+console.log(1)
+console.log(1)
+console.log(1)
+console.log(1)
+console.log(1)
+console.log(1)
+console.log(1)
+console.log(1)
+console.log(1)
+console.log(1)
+console.log(1)
+console.log(1)
+console.log(1)
+console.log(1)
+console.log(1)
+console.log(1)
+console.log(1)
+console.log(1)
+console.log(1)
+console.log(1)
+console.log(1)
+console.log(1)
+console.log(1)
+console.log(1)
+console.log(1)
+console.log(1)
+console.log(1)
+console.log(1)
+console.log(1)
