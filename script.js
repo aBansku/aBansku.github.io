@@ -2,14 +2,14 @@ var score;
 var duration = 10;
 var startTime;
 var ended = true;
-var timerTxt = document.getElementById("timer");
-var scoreTxt = document.getElementById("score");
-var clicksTxt = document.getElementById("clicks");
-var startBtn = document.getElementById("start");
-var clickArea = document.getElementById("clickarea");
-var fiveSec = document.getElementById("fivesec")
-var oneSec = document.getElementById("onesec")
-var tenSec = document.getElementById("tensec")
+const timerTxt = document.getElementById("timer");
+const scoreTxt = document.getElementById("score");
+const clicksTxt = document.getElementById("clicks");
+const startBtn = document.getElementById("start");
+const clickArea = document.getElementById("clickarea");
+const fiveSec = document.getElementById("fivesec")
+const oneSec = document.getElementById("onesec")
+const tenSec = document.getElementById("tensec")
 // This function makes it possible to show elements again after they are hidden.
 var show = function(elem) {
   elem.style.display = 'inline';
