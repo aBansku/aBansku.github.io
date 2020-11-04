@@ -1,5 +1,5 @@
 var score;
-var duration;
+var duration = 10;
 var startTime;
 var ended = true;
 var timerTxt = document.getElementById("timer");
