@@ -18,15 +18,17 @@ var show = function(elem) {
 var hide = function(elem) {
   elem.style.display = 'none';
 }
+
 function onesecond() {
-  duration = 1
+  duration = 1;
 }
 function fivesecs() {
-  duration = 5
+  duration = 5;
 }
 function tensecs() {
-  duration = 10
+  duration = 10;
 }
+
 
 console.log(duration)
 // This function starts the game. Get called when Start button is pressed
